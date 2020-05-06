@@ -1,0 +1,65 @@
+.books-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.book-list{
+  margin: 0;
+  padding: 0;
+  flex-grow: 3;
+  margin-right: 20px;
+}
+
+.list-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #eee;
+  margin-bottom: 5px;
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+  padding: 10px 5px;
+}
+
+.button--secondary {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #eee;
+  background-size: 65%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  margin-left: 10px;
+}
+
+.button--secondary:hover {
+  background-color: #eee;
+}
+
+.button--delete {
+  background-image: url('../images/delete.svg');
+}
+
+.button--edit {
+  background-image: url('../images/edit.svg');
+  background-size: 45%;
+}
+
+.book-details{
+  width: 30%;
+  flex-grow: 1;
+  border: 1px solid #eee;
+  padding: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #eee;
+  padding: 10px;
+}
+
